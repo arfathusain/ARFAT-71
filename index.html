@@ -9,8 +9,12 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Merriweather:ital,wght@1,300&family=Open+Sans:wght@300&family=Oswald&family=Poppins:wght@700&family=Sniglet&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
-
+    <link rel="stylesheet" href="/css/mobile.css">
+    <link rel="stylesheet" href="/css/style.css">
 
     <title>Hello, world!</title>
 </head>
@@ -19,7 +23,7 @@
     <!--============================= navbar========================= -->
 
     <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <div class="container">
                 <a class="navbar-brand" href="#">ARFAT</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -71,16 +75,18 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-7">
-                <h1>Welcome To</h1>
-                <h1>ARIFUL ISLAM ARFAT</h1>
-                <h3>Front end Developer</h3>
-                <h4>I’m a highly motivated, ambitious, and creative person who can make you happy to develop an amazing
+            <div class="col-7 arfat-0">
+                <h1 class="arfat-1">Welcome To</h1>
+                <h1 class="arfat-2">ARIFUL ISLAM ARFAT</h1>
+                <marquee behavior="scroll" direction="up"><h3 class="arfat-3">Front end Developer</h3></marquee>
+                <h4 class="arfat-4">I’m a highly motivated, ambitious, and creative person who can make you happy to develop an amazing
                     website at an affordable price. I'm available for freelance work.</h4>
-                <button>HIRE ME</button>
+                    <div class="d-grid gap-1 mt-5 mb-5 d-md-block">
+                        <button class="btn">HIRE ME</button>
+                    </div>
             </div>
-            <div class="col-5">
-                <img src="/IMG/my-bg (1).jpg" alt="">
+            <div class="col-5 arfat-0 arfat-5">
+                <img class="img-fluid" src="/IMG/my-bg (1).jpg" alt="">
             </div>
         </div>
     </div>
@@ -89,16 +95,16 @@
 
     <div class="container">
 
-        <h1>ABOUT ME</h1>
-        <h3>Main informations about me.</h3>
+        <h1 class="arfat-6">ABOUT ME</h1>
+        <h3 class="arfat-7">Main informations about me.</h3>
 
         <div class="row">
-            <div class="col-5">
-                <img src="/IMG/my-bg2.jpg" alt="">
+            <div class="col-5 arfat-0">
+                <img class="img-fluid arfat-8" src="/IMG/my-bg2.jpg" alt="">
             </div>
-            <div class="col-7">
-                <h1>Hi! I'm Ariful Islam</h1>
-                <h4>assalamu alikum,
+            <div class="col-7 arfat-0">
+                <h1 class="arfat-9">Hi! I'm Ariful Islam</h1>
+                <h4 class="arfat-10">assalamu alikum,
                     welcome to my website.
                     i hope you are well.my name is md Ariful Islam.I live in bangladesh.I have parents and an older
                     brother.our family is a small family.my faher is a working i am a frontend developer.i have been
@@ -109,14 +115,15 @@
                     presence and hope I can help you to make an awesome website for your business. . I love programming
                     as It's my passion.</h4>
 
-                <div class="row ">
-                    <div class="col-md-7 mt-4">
-                        <h5 class="ddd"><span class="text-warning">Residence</span> : <span
+                <div class="row arfat-12">
+                    <div class="col arfat-11">
+                        <h5 class="ddd fs-6"><span class="text-warning">Residence</span> : <span
                                 class="text-warning">Bangladesh</span>
                         </h5>
-                        <h5 class=" ddd"><span class="text-warning">City</span> : <span
+                        <h5 class=" ddd fs-6"><span class="text-warning">City</span> : <span
                                 class="text-warning">chattagram</span></h5>
-                        <div class="arfat-5"><a href="https://www.facebook.com/profile.php?id=100053190180040"
+                        <div class="mt-3">
+                            <a href="https://www.facebook.com/profile.php?id=100053190180040"
                                 target="_blank"><i
                                     class="bi bi-facebook bg-success text-light  p-2 mt-3 rounded-circle"></i></a>
                             <a href="https://www.linkedin.com/in/md-arfat-8b904623a/" target="_blank"> <i
@@ -125,12 +132,14 @@
                                     class="bi bi-youtube bg-success text-light  p-2 mt-3 rounded-circle mb-5"></i></a>
                         </div>
                     </div>
-                    <div class="col-md-5 mt-4 arman-3">
-                        <h5 class="arfat-6"><span class="text-warning">WhatsApp</span> :<a href="" class="eee">
+                    <div class="col arfat-11">
+                        <h5 class="fs-6"><span class="text-warning">WhatsApp</span> :<a href="" class="eee">
                                 <span class=" text-warning">01846615162</span> </a> </h5>
-                        <h6 class="mt-4"><span class="text-warning">Mail</span>: <a href="" class="eee"><span
+                        <h6 class="mt-4 fs-6"><span class="text-warning">Mail</span>: <a href="" class="eee"><span
                                     class="text-warning">arfathusain5162@gmail.com</span></a> </h6>
-                        <button>MY RESUME</button>
+                    </div>
+                    <div class="d-grid gap-6 mt-5 mb-5 d-md-block">
+                        <button class="btn">MY RESUME</button>
                     </div>
                 </div>
             </div>
@@ -138,36 +147,38 @@
             <!--============================== skill=========================== -->
 
             <div class="container">
-                <h1>MY SKILL</h1>
-                <h4>I have 3 month of good experience and have a clear idea of HTML,
+                <h1 class="arfat-13">MY SKILL</h1>
+                <h4 class="arfat-14">I have 6 month of good experience and have a clear idea of HTML,
                     CSS, BOOTSTRAP. In the Front End Web Development part,
                     I have the skills to design and develop any kind of website.
                     My design and development are responsive on all devices,
                     pixel perfect, w3c valid code, clean coding,
                     SEO friendly, and cross-browser compatible.</h4>
                 <div class="row">
-                    <div class=" inline-block text-center arman-5">
-                        <div class="arif-2 skill__content d-flex justify-content-center">
+                    <div class=" inline-block text-center arman-5 arfat-15">
+                        <div class=" skill__content d-flex justify-content-center">
                             <ul class="skill__list">
-                                <li class="d-inline-block text-center">
+                                <li class="d-inline-block text-center arif-16">
                                     <img class="img-fluid" src="/img/1.png" alt="html">
-                                    <h4 class="sub__heading text-light">HTML</h4>
+                                    <h5 class="sub__heading text-light">HTML</h5>
                                 </li>
                             </ul>
                             <ul class="skill__list">
-                                <li class="d-inline-block text-center">
+                                <li class="d-inline-block text-center arif-16">
                                     <img class="img-fluid" src="/img/2.png" alt="css">
-                                    <h4 class="sub__heading text-light">CSS</h4>
+                                    <h5 class="sub__heading text-light">CSS</h5>
                                 </li>
                             </ul>
                             <ul class="skill__list">
-                                <li class="d-inline-block text-center">
+                                <li class="d-inline-block text-center arif-16">
                                     <img class="img-fluid" src="/img/4.png" alt="js">
-                                    <h4 class="sub__heading text-light">BOOTSTRAP</h4>
+                                    <h5 class="sub__heading text-light PY-5">BOOTSTRAP</h5>
                                 </li>
-                                <li class="d-inline-block text-center">
+                            </ul>
+                            <UL class="SKILL__LIST">
+                                <li class="d-inline-block text-center  arif-16">
                                     <img class="img-fluid" src="/img/3.png" alt="react">
-                                    <h4 class="sub__heading text-light">JavaScript</h4>
+                                    <h5 class="sub__heading text-light">JavaScript</h5>
                                 </li>
                             </ul>
                         </div>
@@ -178,15 +189,15 @@
             <!--======================== service================================= -->
 
             <div class="container">
-                <h1>Amazing Service</h1>
-                <h4>Meet my amazing services. 100% client satisfaction is my first priority.
+                <h1 class="ARFAT-17">Amazing Service</h1>
+                <h4 class="arfat-18">Meet my amazing services. 100% client satisfaction is my first priority.
                     If you once take my service promise you will come again and again.
                     If you don't find your desired service, You can
                     also make a custom offer.</h4>
 
-                <div class="container ARIF-3">
-                    <div class="row">
-                        <div class="col arman-10">
+                <div class="container">
+                    <div class="row arfat-19">
+                        <div class="col-4  arfat-19">
                             <div class="box">
                                 <div class="avtar">
                                     <i class="bi bi-bootstrap text-dark"></i>
@@ -201,7 +212,7 @@
                             </div>
                         </div>
 
-                        <div class="col arman-10">
+                        <div class="col-4 arfat-19">
                             <div class="box">
                                 <div class="avtar">
                                     <i class="bi bi-webcam text-dark"></i>
@@ -216,7 +227,7 @@
                             </div>
                         </div>
 
-                        <div class="col arman-10">
+                        <div class="col-4 arfat-19">
                             <div class="box">
                                 <div class="avtar">
                                     <i class="bi bi-file-word text-dark"></i>
@@ -238,15 +249,15 @@
             <!--===================== pricing========================= -->
 
             <div class="container">
-                <h1>Pricing Table</h1>
-                <h4>Here are the packages of my all services ensuring value for
+                <h1 class="arfat-21">Pricing Table</h1>
+                <h4 class="arfat-22">Here are the packages of my all services ensuring value for
                     money work. 100% money back guaranteed untill you are not
                     satisfied. Custom offer is also accepted.</h4>
 
                 <div class="row">
                     <!-- card-1 -->
-                    <div class="col arman-11">
-                        <div class="box-a">
+                    <div class="col-4  arfat-19">
+                        <div class="box-a ">
                             <div class="avtar-bd">
                                 <h4 class="arif-5">BASIC</h4>
                                 <h1 class="arif-4">50$</h1>
@@ -266,8 +277,8 @@
                         </div>
                     </div>
                     <!-- card-2 -->
-                    <div class="col arman-11">
-                        <div class="box-a">
+                    <div class="col-4 arfat-19">
+                        <div class="box-a ">
                             <div class="avtar-bd">
                                 <h4 class="arif-5">STANDARD</h4>
                                 <h1 class="arif-4">120$</h1>
@@ -287,8 +298,8 @@
                         </div>
                     </div>
                     <!-- card-3 -->
-                    <div class="col arman-11">
-                        <div class="box-a">
+                    <div class="col-4 arfat-19">
+                        <div class="box-a ">
                             <div class="avtar-bd">
                                 <h4 class="arif-5">PREMIUM</h4>
                                 <h1 class="arif-4">250$</h1>
@@ -314,19 +325,19 @@
 
 
             <div class="container">
-                <h1>Contact Me</h1>
-                <h4>To contact me, message me, or contact me using social media
+                <h1 class="arfat-25">Contact Me</h1>
+                <h4 class="arfat-26">To contact me, message me, or contact me using social media
                     platforms. If you do not want to be contacted, you can hire me
                     directly through the International Marketplaces. I am available
                     online
                 </h4>
 
                 <div class="row arfat-8">
-                    <div class="col">
-                        <img class=" arfat-7 shadow-lg p-3 bg-body img-fluid" src="/img/contact.png" alt="">
+                    <div class="col-6 arfat-19">
+                        <img class=" arfat-7 shadow-lg p-3 bg-body img-fluid" src="/IMG/contact (1).png" alt="">
                     </div>
     
-                    <div class="col arman-14">
+                    <div class="col-6 arfat-19">
                         <div class="mb-3">
                             <label for="exampleFormControlInput1" class="form-label  fs-3 text-capitalize"><span
                                     class="text-warning">YOUR</span> <span class="text-warning">NAME</span></label>
@@ -346,8 +357,9 @@
                             <textarea class="form-control fff-bbb shadow p-3 bg-body rounded text-capitalize"
                                 id="exampleFormControlTextarea1" rows="3" placeholder="your MESSAGE
                 "></textarea>
-                            <button class="btn arman-13">SEND
-                            </button>
+                <div class="d-grid gap-6 mt-5 mb-5 d-md-block">
+                    <button class="btn ">SEND </button>
+                </div>
                         </div>
                     </div>
                 </div>
@@ -357,9 +369,9 @@
             <section class="bg-dark">
                 <div class="container">
                     <div class="row text-center">
-                        <h1 class="text-light bd-ttt">ARIFUL ISLAM ARFAT</h1>
+                        <h1 class="text-light arfat-23">ARIFUL ISLAM ARFAT</h1>
                     </div>
-                    <div class="row text-center text-light d-block bd-mnm">
+                    <div class="row text-center text-light d-block arfat-24">
                         <a href="https://www.facebook.com/profile.php?id=100053190180040" target="_blank"> <i class="bi bi-facebook"></i></a>
                         <a href="https://www.linkedin.com/in/md-arfat-8b904623a/" target="_blank"><i class="bi bi-linkedin"></i></a>
                         <a href="https://www.youtube.com/channel/UCSEYP28nDOy0mK7I5GZi_9A" target="_blank"><i class="bi bi-youtube"></i></a>
