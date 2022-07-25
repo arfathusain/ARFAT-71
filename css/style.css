@@ -1,15 +1,75 @@
-.arfat-1{
+body{
+    background-color: black;
+}
+/*************** about *****************/
+.arif-0{
     font-family: 'Poppins', sans-serif;
     color: orange;
-    margin-top: 100px;
-    font-size: 50px;
+    margin-top: 150px;
+    font-size: 80px;
+        
 }
-.arfat-2{
+.arif-1{
     font-family: 'Poppins', sans-serif;
     color: orange;
     margin-top: 40px;
-    font-size: 20px;
-}
-#arif-2{
     font-size: 30px;
+}
+.arif-2{
+    color: white;
+}
+.arif-3{
+    color: white;
+}
+.arif-4 .btn{
+    border: 2px solid rgb(255, 81, 0);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    background-color: orange;
+    padding-left:50px;
+    padding-right: 50px;
+}
+.btn:hover{
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(252, 252, 252);
+    font-weight: bold;
+    background-color: rgb(0, 0, 0);
+}
+.arif-5{
+    margin-top: 150px;
+    border-left: 6px solid green;
+    border-right: 6px solid yellow;
+}
+/************** about me************** */
+.arif-6{
+    font-size:250px;
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Poppins', sans-serif;
+    color: orange;
+}
+.arif-7{
+    text-align: center;
+    font-family:'Poppins', sans-serif ;
+    color: aliceblue;
+    margin-top: 20px;
+}
+.arif-8{
+    margin-top: 80px;
+}
+.arif-9{
+    margin-top: 80px;
+}
+.arif-10{
+    color: orange;
+    font-family:'Poppins', sans-serif ;
+
+}
+.arif-11{
+    color: aliceblue;
+    font-family:'Poppins', sans-serif ;
+    font-size: 10px;
+}
+.arif-12{
+    margin-top: 20px;
 }

@@ -13,7 +13,7 @@
         font-family: 'Poppins', sans-serif;
         color: orange;
         text-align: center;
-        margin-top: 100px;
+        margin-top: -50px;
         font-size: 50px;
     }
     .arfat-2{
@@ -59,6 +59,7 @@
     .arfat-5{
         padding-left: 50px;
         padding-right: 50px;
+        margin-top:-150px;
     }
     /****************/
 
@@ -69,7 +70,7 @@
         font-family: 'Poppins', sans-serif;
         color: orange;
         text-align: center;
-        margin-top: 70px;
+        margin-top: -30px;
         font-size: 50px;
     }
     .arfat-7{
@@ -78,13 +79,14 @@
         text-align: center;
         margin-top: 20px;
         font-size: 20px;
-        margin-bottom: 70px;
+        margin-bottom: 10px;
     }
     /*******img-2******/
     .arfat-8{
         padding-left: 50px;
         padding-right: 50px;
         margin-bottom: 40px;
+        margin-top: -100px;
     }
     /***********************/
      
@@ -93,6 +95,7 @@
         color: orange;
         padding-left: 15px;
         font-size: 30px;
+        margin-top: -70px;
     }
     .arfat-10{
         font-family: 'Poppins', sans-serif;
@@ -105,7 +108,7 @@
         width: 50%;
         padding-left: 20px;
         padding-right: 20px;
-        font-size: 15px;
+        font-size: -15px;
     }
     .arfat-12{
         margin-top:20px;
@@ -129,6 +132,7 @@
         font-size: 15px;
         padding-left: 30px;
         padding-right: 30px;
+        text-align: center;
     }
     .arfat-15{
         margin-top: 40PX;
